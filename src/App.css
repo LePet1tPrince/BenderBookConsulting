@@ -1,0 +1,20 @@
+.fullscreen {
+    height: 120vh;
+};
+
+.services-card {
+  min-height: 600px;
+};
+
+.services-card:hover {
+  background-color: yellow;
+}
+
+/* Services */
+body{
+  margin-top:20px;
+  background:#F0F8FF;
+  }
+  .text-custom{
+  color: #0062ff !important;
+  }
