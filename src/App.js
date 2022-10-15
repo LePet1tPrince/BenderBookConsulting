@@ -3,14 +3,12 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import ContactForm from './components/ContactForm'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Stylesheet from './components/Stylesheet';
 import ContactView from './pages/ContactView';
 import HomeView from './pages/HomeView';
 import ServicesView from './pages/ServicesView';
 import { Routes, Route } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link'
-import TestComponent from './components/TestComponent';
 import BlankSpace from './components/BlankSpace';
+import TestView from './pages/TestView';
 
 
 function App() {
@@ -26,11 +24,11 @@ function App() {
         {/* <HashLink to="/services#bookkeeping">Link to Hash Fragment</HashLink> */}
 
         <Route path="/contact" element={<ContactView />}/>
+        <Route path="/test" element={<TestView />}/>
       </Routes>
       <ContactForm/>
-      {/* <TestComponent/> */}
       <Footer/>
-      <Stylesheet/> {/* Just keep this for colour reference. Delete when done production */}
+      
       
     </div>
   );

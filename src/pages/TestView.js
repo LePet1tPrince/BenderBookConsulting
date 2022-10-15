@@ -2,18 +2,22 @@ import Hero from '../components/Home/Hero'
 import Reference from '../components/Home/Reference'
 import Software from '../components//Home/Software'
 import WhyUs from '../components/Home/WhyUs'
+import Stylesheet from '../components/Stylesheet';
 
 
-const HomeView = () => {
+
+
+const TestView = () => {
     return (
       <div>
       <Hero/>
-      {/* <Reference/> */}
+      <Reference/>
       <WhyUs/>
       <Software/>
+      <Stylesheet/> {/* Just keep this for colour reference. Delete when done production */}
       </div>
       
     )
   }
 
-  export default HomeView;
+  export default TestView;
