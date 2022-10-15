@@ -10,11 +10,15 @@ import ServicesView from './pages/ServicesView';
 import { Routes, Route } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link'
 import TestComponent from './components/TestComponent';
+import BlankSpace from './components/BlankSpace';
 
 
 function App() {
+
+
   return (
     <div>
+      <BlankSpace/>
       <Navbar/>
       <Routes>
         <Route path="/" element={<HomeView />}/>

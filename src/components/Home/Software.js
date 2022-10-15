@@ -11,10 +11,10 @@ const Software = () => {
     <div className="py-5">
         <div className="container">
             <div className="row d-flex text-center">
-                <h1> Already Set up?</h1>
+                <h1>Our Picks</h1>
             </div>
             <div className="row d-flex text-center">
-                <h3>These are some of the software we work with</h3>
+                <h3>These are some of our favourite software to work with</h3>
             </div>
             <div className="row d-flex justify-content-around align-items-center">
                 <div className="col hover-grow">

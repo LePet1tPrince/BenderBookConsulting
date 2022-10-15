@@ -4,7 +4,7 @@ import shopkeeper from '../../images/Shopkeeper.jpg'
 const Reference = () => {
     return (
         <div className="fullscreen border border-primary">
-            <h1 className="d-flex justify-content-center py-5 display-5 fw-bold lh-1 mb-3 border border-secondary">Those Who Trust Us</h1>
+            <h2 className="d-flex justify-content-center py-5 display-5 fw-bold lh-1 mb-3 border border-secondary">Why Choose Us?</h2>
 
             <div className="d-flex justify-content-center border border-danger">
                 
