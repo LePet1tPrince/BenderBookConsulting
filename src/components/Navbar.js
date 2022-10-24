@@ -4,9 +4,11 @@ import logo from "../images/favicon.png"
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg py-3 bg-light bg-gradient shadow-lg fixed-top max-height-60">
+        <nav className="navbar navbar-expand-lg py-3 bg-light bg-gradient shadow-lg fixed-top max-height-100">
         <div className="container-fluid">
-          <img src={logo} className="d-block mx-5 img-fluid" alt="Bootstrap Themes" width="50" height="50" loading="lazy"/>
+          <Link to="/">
+            <img src={logo} className="d-block mx-5 img-fluid " alt="Bootstrap Themes" width="50" height="50" loading="lazy"/>
+          </Link>
           <Link className="navbar-brand" to="/">
             <h3><strong>Bender Book Consulting</strong></h3>
             </Link>
@@ -16,18 +18,12 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item text-align-center">
-                <Link className="nav-link active fs-3 mx-5 px-4 rounded-4 hover-button" aria-current="page" to="/">Home</Link>
+                <Link className="nav-link active fs-3 mx-5 px-4 rounded-4 hover-button align-text-bottom" aria-current="page" to="/">Home</Link>
               </li>
-              <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle fs-2 mx-5 px-4 rounded-4 hover-button" to="/services" data-bs-toggle="dropdown">
+              <li className="nav-item">
+                <Link className="nav-link fs-2 mx-5 px-4 rounded-4 hover-button" to="/services">
                   Services
                 </Link>
-                <ul class="dropdown-menu">
-                  <li><Link class="dropdown-item fs-4" to="/services#bookkeeping">Bookkeeping</Link></li>
-                  <li><Link class="dropdown-item fs-4" to="/services/system-setup">Accounting Systems Setup</Link></li>
-                  <li><Link class="dropdown-item fs-4" to="/services/payroll-setup">Payroll Setup & Support</Link></li>
-                  <li><Link class="dropdown-item fs-4" to="/services/personal-tax-returns">Personal Tax Returns</Link></li>
-                </ul>
               </li>
               <li className="nav-item dropdown">
                 <Link className="nav-link fs-2 mx-5 px-4 rounded-4 hover-button" to="/contact" role="button" aria-expanded="false">

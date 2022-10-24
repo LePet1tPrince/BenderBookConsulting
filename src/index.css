@@ -20,3 +20,7 @@ code {
 .hover-grow:hover {
   transform: scale(1.1);
 }
+.font-72 {
+  font-size: 72px;
+  font-weight: bold;
+}

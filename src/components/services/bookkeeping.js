@@ -1,10 +1,10 @@
 import '../../App.css'
-import { NavHashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 
 const bookkeeping = () => {
     return (
       <div>
-        <NavHashLink to="/services#bookkeeping">Link to Hash Fragment</NavHashLink>
+        <HashLink to="/services#bookkeeping">Link to Hash Fragment</HashLink>
             This is the bookkeeping Component
 
         </div>

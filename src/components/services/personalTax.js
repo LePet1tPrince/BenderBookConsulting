@@ -3,7 +3,10 @@ import '../../App.css'
 const personalTax = () => {
     return (
       <div>
-            This is the Personal Tax Component 
+            <h1>Personal Tax Returns</h1>
+            <p></p>
+            <h1>Non-Incorporated Business Tax Returns</h1>
+            <p></p>
         </div>
     )
 }

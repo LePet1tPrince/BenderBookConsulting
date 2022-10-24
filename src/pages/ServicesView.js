@@ -4,7 +4,7 @@ import Bookkeeping from '../components/services/bookkeeping';
 import Ass from '../components/services/ass';
 import Payroll from '../components/services/payroll';
 import PersonalTax from '../components/services/personalTax';
-
+import Pricing from '../components/services/Pricing';
 
 
 const ServicesView = () => {
@@ -15,6 +15,7 @@ const ServicesView = () => {
        <Ass />
        <Payroll />
        <PersonalTax />
+       <Pricing/>
 
       </div>
          
