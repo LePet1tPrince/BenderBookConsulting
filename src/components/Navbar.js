@@ -25,6 +25,11 @@ const Navbar = () => {
                   Services
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link fs-2 mx-5 px-4 rounded-4 hover-button" to="/about">
+                  About
+                </Link>
+              </li>
               <li className="nav-item dropdown">
                 <Link className="nav-link fs-2 mx-5 px-4 rounded-4 hover-button" to="/contact" role="button" aria-expanded="false">
                   Contact Us

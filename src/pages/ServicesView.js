@@ -8,6 +8,7 @@ import Pricing from '../components/services/Pricing';
 
 
 const ServicesView = () => {
+  
     return (
       <div>
        <ServicesHero />
