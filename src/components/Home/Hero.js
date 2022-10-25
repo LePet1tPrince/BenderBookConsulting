@@ -1,11 +1,13 @@
 import banner from '../../images/Sillouhette-3-people.jpg'
 import '../../App.css'
+import Fade from 'react-reveal/Fade';
+
 
 const Hero = () => {
     return (
         <div className="fullscreen">
         <div className="b-example-divider"></div>
-
+        <Fade duration={2000}>
             <div className="container col-xxl-8 px-4 py-5">
             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div className="col-10 col-sm-8 col-lg-6">
@@ -20,6 +22,7 @@ const Hero = () => {
                 </div>
             </div>
             </div>
+            </Fade>
         
       </div>
     )

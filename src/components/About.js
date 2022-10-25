@@ -10,7 +10,7 @@ const About = () => {
                         
                                 <div className="card-img-overlay d-flex justify-content-end align-items-center mx-5">
                                     <p className="card-text w-50 font-18">
-                                    "I can't believe they don't teach this stuff in highschool". These were my first thoughts after taking my first personal finance course in university. The world of money is complex and it often feels like its designed to keep you in the dark. But when you are able to understand your goals AND use your money in ways that align with your goals, it really can be life changing. <br/>
+                                    "I can't believe they don't teach this stuff in highschool". These were my first thoughts after taking my first personal finance course. The world of money and taxes is complex and it often feels like its designed to keep you in the dark. But when you are able to understand your goals AND use your money in ways that align with your goals, it can be life changing. <br/>
                                     Being a certified bookkeeping professional and personal finance nerd, I don't just run your business finances. I work with you to achieve the goals you want for your business and your personal life. I have personally helped over 30 businesses achieve new levels of confidence and freedom.
                                     <br/> <br/>
 

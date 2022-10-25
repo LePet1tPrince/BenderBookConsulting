@@ -12,6 +12,7 @@ import BlankSpace from './components/BlankSpace';
 import TestView from './pages/TestView';
 import { useRef } from "react";
 import AboutView from './pages/AboutView';
+import Fade from 'react-reveal/Fade';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <div>
       <BlankSpace/>
       <Navbar/>
+      <Fade bottom big>
       <Routes>
         <Route exact path="/" element={<HomeView />}/>
         <Route exact path="/services" element={<ServicesView />}/>
@@ -30,6 +32,7 @@ function App() {
         <Route path="/about" element={<AboutView />} />
         <Route path="/test" element={<TestView />}/>
       </Routes>
+      </Fade>
       <ContactForm/>
       <Footer/>
       
