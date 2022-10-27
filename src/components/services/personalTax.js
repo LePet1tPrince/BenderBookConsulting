@@ -2,7 +2,7 @@ import '../../App.css'
 
 const personalTax = () => {
     return (
-      <div>
+      <div id="personaltax">
             <h1>Personal Tax Returns</h1>
             <p></p>
             <h1>Non-Incorporated Business Tax Returns</h1>

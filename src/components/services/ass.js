@@ -2,7 +2,7 @@ import '../../App.css'
 
 const ass = () => {
     return (
-      <div>
+      <div id="ass">
             This is the Accounting System setup Component 
         </div>
     )

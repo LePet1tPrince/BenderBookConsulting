@@ -11,7 +11,7 @@ const servicesHero = () => {
                         <div className="card-body">
                         <h5 className="card-title">Bookkeeping</h5>
                         <p className="card-text">We want your business to run well, too. An informed business owner is a smart business owner. Are you trying to hire? Do you want to grow your business? Let's get your bookeeping up to date and accurate!</p>
-                        <a href="/" className="btn btn-primary">Learn More</a>
+                        <a href="#bookkeeping" className="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                         <div className="card m-3 h-100 w-75">
@@ -19,7 +19,7 @@ const servicesHero = () => {
                             <h5 className="card-title">Payroll Setup & Support</h5>
                             <p className="card-text">Let's make sure your employees are paid on time and accurately. Plus, we will take care of remitting everything to the CRA!</p>
                             <div className="footer">
-                            <a href="/" className="btn btn-primary">Learn More</a>
+                            <a href="#payroll" className="btn btn-primary">Learn More</a>
                             </div>
                             </div>
                         </div>
@@ -29,7 +29,7 @@ const servicesHero = () => {
                         <div className="card-body">
                         <h5 className="card-title">Accounting Systems Setup</h5>
                         <p className="card-text">We get it, you want to roll up your sleves and get into the books yourself! In that case, let us set up your bookkeeping system for you. We throw in some coaching as well to make sure you have all the best tips and tricks we have learned in running your own bookkeeping system.</p>
-                        <a href="/" className="btn btn-primary justify-content-end">Learn More</a>
+                        <a href="#ass" className="btn btn-primary justify-content-end">Learn More</a>
                         </div>
                         </div>
 
@@ -37,7 +37,7 @@ const servicesHero = () => {
                         <div className="card-body">
                         <h5 className="card-title">Personal Tax Returns</h5>
                         <p className="card-text">Looking for someone to take the load of personal taxes off your shoulder? Look no further! We file personal and small business taxes.</p>
-                        <a href="/" className="btn btn-primary">Learn More</a>
+                        <a href="#personaltax" className="btn btn-primary">Learn More</a>
                         </div>
                         </div>
                     </div>

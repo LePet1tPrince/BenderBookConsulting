@@ -2,7 +2,7 @@ import '../../App.css'
 
 const payroll = () => {
     return (
-      <div>
+      <div id="payroll">
             This is the payroll Component 
         </div>
     )
