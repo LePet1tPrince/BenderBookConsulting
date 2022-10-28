@@ -32,3 +32,112 @@ code {
 .deskPicture {
   background-position: center;
 }
+
+.font-58 {
+  font-size: 58px;
+  font-weight: bold;
+}
+.font-36 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.font-28 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+.h-10 {
+  height: 10%;
+}
+
+.whyus-img {
+  object-fit: cover;
+  background-color: black;
+  opacity: 50%;
+}
+
+/* Flip Cards */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Reseting */
+
+
+
+
+.container{
+    transform-style: preserve-3d;
+}
+
+.container .box{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+    
+}
+
+.container .box .body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+}
+
+
+
+.container .box .body .imgContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.container .box .body .imgContainer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .box .body .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateX(180deg);
+}
+
+.container .box:hover .body{
+    transform: rotateX(180deg);
+}
+
+.container .box .body .content div{
+    transform-style: preserve-3d;
+    padding: 20px;
+    /* background: #2E83B7; */
+    background: linear-gradient(180deg, #2E83B7,#8ec5e2);
+    transform: translateZ(100px);
+}
+
+.container .box .body .content div h3{
+    letter-spacing: 1px;
+}

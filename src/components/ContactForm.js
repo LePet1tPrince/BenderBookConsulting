@@ -19,7 +19,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="fullscreen bg-primary bg-opacity-75 deskPicture" style={{ backgroundImage: `url(${Desk})`}}>
+        <div id="contact" className="fullscreen bg-primary bg-opacity-75 deskPicture" style={{ backgroundImage: `url(${Desk})`}}>
             <div className="h-100 d-flex align-items-center justify-content-center">
             <div className="container">
         <div className="row d-flex align-content-center justify-content-center">

@@ -1,21 +1,19 @@
-import Xero from '../../images/Xero-logo.png'
-import Dext from '../../images/Dext-logo.png'
-import plooto from '../../images/plooto-logo.png'
-import QBO from '../../images/QBO-logo.png'
-import wave from '../../images/wave-logo.jpg'
-import excel from '../../images/excel-logo.png'
+import Xero from '../../images/logos/Xero-logo.png'
+import Dext from '../../images/logos/Dext-logo.png'
+import plooto from '../../images/logos/plooto-logo.png'
+import QBO from '../../images/logos/QBO-logo.png'
+import wave from '../../images/logos/wave-logo.jpg'
+import excel from '../../images/logos/excel-logo.png'
 
 
 const Software = () => {
     return (
     <div className="py-5">
         <div className="container">
-            <div className="row d-flex text-center">
-                <h1>Our Picks</h1>
+            <div className="font-72 text-center">
+                Some of Our Favourite Software
             </div>
-            <div className="row d-flex text-center">
-                <h3>These are some of our favourite software to work with</h3>
-            </div>
+          
             <div className="row d-flex justify-content-around align-items-center">
                 <div className="col hover-grow">
                     <a href="https://www.xero.com/ca/" target="_blank" width="100px" height="100px">

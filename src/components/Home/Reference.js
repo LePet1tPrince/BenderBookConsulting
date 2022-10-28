@@ -3,10 +3,10 @@ import shopkeeper from '../../images/Shopkeeper.jpg'
 
 const Reference = () => {
     return (
-        <div className="fullscreen border border-primary">
-            <h2 className="d-flex justify-content-center py-5 display-5 fw-bold lh-1 mb-3 border border-secondary">Why Choose Us?</h2>
+        <div className="fullscreen">
+            <h2 className="d-flex justify-content-center py-5 lh-1 mb-3 font-58">Those who work with us</h2>
 
-            <div className="d-flex justify-content-center border border-danger">
+            <div className="d-flex justify-content-center">
                 
                 <div className="card w-50 border-0">
                     <div className="row">

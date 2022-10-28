@@ -7,12 +7,12 @@ import ContactView from './pages/ContactView';
 import HomeView from './pages/HomeView';
 import ServicesView from './pages/ServicesView';
 import { Routes, Route } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link'
 import BlankSpace from './components/BlankSpace';
 import TestView from './pages/TestView';
-import { useRef } from "react";
 import AboutView from './pages/AboutView';
 import Fade from 'react-reveal/Fade';
+import StyleSheet from './components/Stylesheet';
+
 
 
 function App() {
@@ -35,6 +35,7 @@ function App() {
       </Fade>
       <ContactForm/>
       <Footer/>
+      <StyleSheet/>
       
       
     </div>
