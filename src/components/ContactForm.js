@@ -35,8 +35,14 @@ const ContactForm = () => {
                       <label for="floatingInput">Email</label>
                   </div>
                   <div className="mb-3 form-floating">
+                      <input type="tel" name="user_phone" class="form-control" id="floatingPhone" placeholder="416-123-4567" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+                      <label for="floatingInput">Phone</label>
+                      Format:  123-456-7890
+                  </div>
+                  <div className="mb-3 form-floating">
                       <textarea name="message" className="form-control" id="floatingTextArea" placeholder="What is your biggest bookkeeping issue?" required></textarea>
                       <label for="floatingTextarea">What is your biggest bookkeeping issue?</label>
+                      
                   </div>
               <input type="submit" className="btn btn-primary py-3 px-5 rounded-4" value="Send" />
               </form>

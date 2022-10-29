@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import ScrollToTop from './ScrollToTop'
 
 const Footer = () => {
     return (
@@ -11,6 +12,7 @@ const Footer = () => {
             <a href="/" className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
             <svg className="bi me-2" width="40" height="32"><use href="#bootstrap"/></svg>
             </a>
+            <a href="/">Scroll to Top</a>
 
             {/* <ul className="nav col-md-4 justify-content-end">
             <li className="nav-item"><Link to="/" className="nav-link px-2">Home</Link></li>

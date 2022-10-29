@@ -17,7 +17,6 @@ const TestComponent = () => {
 
                 <div class="content d-flex flex-column align-items-center justify-content-center">
                     <div>
-                <h1>SOmething here</h1>
                         <h3 class="text-white fs-5">Post Title</h3>
                         <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
                     </div>
