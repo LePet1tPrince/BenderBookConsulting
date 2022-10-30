@@ -3,6 +3,11 @@ import '../../App.css'
 import Fade from 'react-reveal/Fade';
 import BlankSpace from '../../components/BlankSpace'
 import QBOcert from '../../images/QBO-certified.png'
+import bank from '../../images/icons/landmark-solid.svg'
+import magnify from '../../images/icons/magnifying-glass-dollar-solid.svg'
+import receipt from '../../images/icons/receipt-solid.svg'
+import scale from '../../images/icons/scale-balanced-solid.svg'
+import cashRegister from '../../images/icons/cash-register-solid.svg'
 
 
 
@@ -18,7 +23,7 @@ const Hero = () => {
                 </div>
                 <div className="col-lg-6">
                 <h1 className="lh-1 mb-3 font-58">Your No-Nonsense Bookkeeping Experts</h1>
-                <p className="lead">With our team of experts at your side, you'll have peace-of mind that the books are in good hands. Let us take care of all those pesky details so you can focus on running things smoothly day to day! </p>
+                <p className="lead">With our team of experts at your side, you'll have peace of mind that the books are in good hands. Let us take care of all those pesky details so you can focus on running things smoothly day to day! </p>
                 <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                     <a href="#contact">
                         <button type="button" className="btn btn-primary text-light btn-lg px-4 py-3 mt-4 me-md-2">Get Started</button>

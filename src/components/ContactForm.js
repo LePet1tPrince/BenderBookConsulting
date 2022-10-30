@@ -24,7 +24,7 @@ const ContactForm = () => {
             <div className="container">
         <div className="row d-flex align-content-center justify-content-center">
           <div className="row mt-5 p-5 w-50 h-50 align-left rounded-4 bg-light">  
-              <h2 className="pb-4">Get in Touch</h2>
+              <h2 className="pb-4 font-36">Take Control, Get in Touch</h2>
               <form ref={form} onSubmit={sendEmail}>
                   <div className="mb-3 form-floating">
                       <input type="text" name="user_name"  class="form-control" id="floatingName" placeholder="Name" required />
@@ -35,8 +35,8 @@ const ContactForm = () => {
                       <label for="floatingInput">Email</label>
                   </div>
                   <div className="mb-3 form-floating">
-                      <input type="tel" name="user_phone" class="form-control" id="floatingPhone" placeholder="416-123-4567" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-                      <label for="floatingInput">Phone</label>
+                      <input type="tel" name="user_phone" class="form-control" id="floatingPhone" placeholder="416-123-4567" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+                      <label for="floatingInput">Phone (optional)</label>
                       Format:  123-456-7890
                   </div>
                   <div className="mb-3 form-floating">

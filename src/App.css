@@ -94,3 +94,8 @@ body{margin-top:20px;}
 p {
     line-height: 1.7;
 }
+
+
+.card-icon {
+  offset: 300px 300px;
+}

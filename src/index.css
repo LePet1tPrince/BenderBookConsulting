@@ -141,3 +141,7 @@ code {
 .container .box .body .content div h3{
     letter-spacing: 1px;
 }
+
+.icon-service {
+  margin: 0rem 4rem 2rem 0rem;
+}
