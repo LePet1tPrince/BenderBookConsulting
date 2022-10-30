@@ -22,7 +22,7 @@ function App() {
     <div>
       <BlankSpace/>
       <Navbar/>
-      <Fade bottom big>
+      {/* <Fade bottom big> */}
       <Routes>
         <Route exact path="/" element={<HomeView />}/>
         <Route exact path="/services" element={<ServicesView />}/>
@@ -30,7 +30,7 @@ function App() {
         <Route path="/about" element={<AboutView />} />
         <Route path="/test" element={<TestView />}/>
       </Routes>
-      </Fade>
+      {/* </Fade> */}
       <ContactForm/>
       <Footer/>
       <StyleSheet/>

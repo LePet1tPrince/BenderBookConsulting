@@ -18,6 +18,10 @@ const ContactForm = () => {
       e.target.reset()
     };
 
+    
+    const handleChange = event => document.getElementById("floatingTextArea").setAttribute("value", "background-color:red;");
+
+
     return (
         <div id="contact" className="fullscreen bg-primary bg-opacity-75 deskPicture" style={{ backgroundImage: `url(${Desk})`}}>
             <div className="h-100 d-flex align-items-center justify-content-center">
@@ -40,16 +44,19 @@ const ContactForm = () => {
                       Format:  123-456-7890
                   </div>
                   <div className="mb-3 form-floating">
-                      <textarea name="message" className="form-control" id="floatingTextArea" placeholder="What is your biggest bookkeeping issue?" required></textarea>
+                      <textarea name="message" className="form-control" id="floatingTextArea" placeholder="What is your biggest bookkeeping issue?" value= "default value" required></textarea>
                       <label for="floatingTextarea">What is your biggest bookkeeping issue?</label>
                       
                   </div>
               <input type="submit" className="btn btn-primary py-3 px-5 rounded-4" value="Send" />
               </form>
+              <button type="button" className="btn btn-danger" id="testbutton" onClick={handleChange}>Prefill</button>
           </div>
         </div>
       </div>
             </div>
+
+            
         </div>
     )
 }

@@ -30,9 +30,9 @@ const Navbar = () => {
                   About
                 </Link>
               </li>
-              <li className="nav-item dropdown">
-                <Link className="nav-link fs-2 mx-5 px-4 rounded-4 hover-button" to="/contact" role="button" aria-expanded="false">
-                  Contact Us
+              <li className="nav-item dropdown">  
+                <Link className="nav-link fs-2 mx-5 px-4 rounded-4 hover-button btn btn-success bold" to="#contact" role="button" aria-expanded="false">
+                  Hire Us
                 </Link>
                 <ul className="dropdown-menu">
                   <li><Link className="dropdown-item" to="/">Action</Link></li>

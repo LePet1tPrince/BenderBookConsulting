@@ -20,36 +20,81 @@ code {
 .hover-grow:hover {
   transform: scale(1.1);
 }
-.font-72 {
+
+/* Font sizes */
+.font-8 {
+  font-size: 8px;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-28 {
+  font-size: 28px;
+}
+.font-32 {
+  font-size: 32px;
+}
+.font-36 {
+  font-size: 36px;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-44 {
+  font-size: 44px;
+}
+.font-48 {
+  font-size: 48px;
+}
+.font-52 {
+  font-size: 52px;
+}
+.font-56 {
+  font-size: 56px;
+}.font-60 {
+  font-size: 60px;
+}.font-64 {
+  font-size: 64px;
+}.font-68 {
+  font-size: 68px;
+}.font-72 {
   font-size: 72px;
+}
+.bold {
   font-weight: bold;
 }
 
-.font-18 {
-  font-size: 18px;
+.fade-in {
+	animation: fadeInAnimation ease 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+    transform: translateY(10%);
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
 
 .deskPicture {
   background-position: center;
 }
 
-.font-58 {
-  font-size: 58px;
-  font-weight: bold;
-}
-.font-36 {
-  font-size: 36px;
-  font-weight: bold;
-}
-
-.font-28 {
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.font-20 {
-  font-size: 20px;
-}
 .h-10 {
   height: 10%;
 }

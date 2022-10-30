@@ -5,12 +5,15 @@ import dollar from '../../images/icons/dollar-sign-solid.svg'
 import hand from '../../images/icons/hand-holding-dollar-solid.svg'
 import stopwatch from '../../images/icons/stopwatch-solid.svg'
 import question from '../../images/icons/question-solid.svg'
+import Fade from 'react-reveal/Fade';
+
 
 const MoneyProblems = () => {
     return (
         <div className="fullscreen">
+            <Fade bottom>
             
-            <div className="text-center font-72">Paying yourself shouldn't be this stressful</div>
+            <div className="text-center font-72 bold">Paying yourself shouldn't be this stressful</div>
             <div className="container h-50">
                 <div className="row h-100 d-flex align-items-center ">
 
@@ -56,6 +59,7 @@ const MoneyProblems = () => {
                     </div>
                 </div>
             </div>
+            </Fade>
       </div>
     )
 }

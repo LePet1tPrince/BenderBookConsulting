@@ -4,7 +4,7 @@ import shopkeeper from '../../images/Shopkeeper.jpg'
 const WhyUs = () => {
     return (
         <div className="">
-            <div className="text-center font-72">Why Us?</div>
+            <div className="text-center font-72 bold">Why Us?</div>
                 <div className="row">
                     <div className="container d-flex align-items-center justify-content-center flex-wrap">
                         <div className="col col-6 box">
