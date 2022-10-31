@@ -99,11 +99,25 @@ code {
   height: 10%;
 }
 
-.whyus-img {
+@media only screen and (min-width: 768px) {
+  .hover-appear {
+    opacity:0;
+    transition: .5s;
+  }
+  
+  .hover-appear:hover {
+    opacity:1;
+    background-color: rgba(0,0,0,0.5);
+  }
+}
+.darken-img {
   object-fit: cover;
   background-color: black;
   opacity: 50%;
 }
+
+
+
 
 /* Flip Cards */
 
