@@ -47,7 +47,7 @@ const ContactForm = () => {
                       <label for="floatingTextarea">What is your biggest bookkeeping issue?</label>
                       
                   </div>
-              <input type="submit" className="btn btn-primary py-3 px-5 rounded-4" value="Send" />
+              <input type="submit" className="btn btn-primary py-3 px-5 rounded-pill text-light fs-3" value="Send" />
               </form>
           </div>
         </div>

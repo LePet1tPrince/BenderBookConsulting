@@ -14,6 +14,7 @@ const Software = () => {
             <div className="font-72 bold text-center">
                 Some of Our Favourite Tools
             </div>
+        
           
             <div className="row d-flex justify-content-around align-items-center">
                 <div className="col hover-grow">
@@ -47,7 +48,7 @@ const Software = () => {
                     </a>
                 </div>
                 
-
+                
             </div>
         </div>
     </div>

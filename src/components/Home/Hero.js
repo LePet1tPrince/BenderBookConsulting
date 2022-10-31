@@ -23,7 +23,9 @@ const Hero = () => {
                 <p className="lead">With our team of experts at your side, you'll have peace of mind that the books are in good hands. Let us take care of all those pesky details so you can focus on running things smoothly day to day! </p>
                 <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                     <a href="#contact">
-                        <button type="button" className="btn btn-primary text-light btn-lg px-4 py-3 mt-4 me-md-2">Get Started</button>
+                        <button type="button" className="btn btn-primary text-light px-4 py-3 mt-4 me-md-2 rounded-pill fs-2">
+                            Hire Us
+                        </button>
                     </a>
                 </div>
                

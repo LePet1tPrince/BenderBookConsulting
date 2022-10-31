@@ -25,6 +25,11 @@
 
 }
 
+.contact-button:hover{
+  color: var(--light) !important;
+  
+}
+
 /* Services */
 body{
   margin-top:20px;

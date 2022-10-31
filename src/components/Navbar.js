@@ -31,7 +31,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item dropdown">  
-                <Link className="nav-link fs-2 mx-5 px-4 rounded-4 hover-button btn btn-success bold" to="#contact" role="button" aria-expanded="false">
+                <Link className="nav-link fs-2 mx-5 px-4 rounded-pill btn btn-primary bold text-light" to="/contact" role="button" aria-expanded="false">
                   Hire Us
                 </Link>
                 <ul className="dropdown-menu">

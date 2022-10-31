@@ -12,7 +12,7 @@ const servicesHero = () => {
     return (
       <div>
         <div className="text-center font-72 bold py-5">What can we take off your plate?</div>
-                <div className="font-60 bold text-center bg-primary text-light">Ongoing</div>
+                <div className="font-60 bold text-center bg-info text-light">Ongoing</div>
              <div className="d-flex pt-5 container flex-row">
                         {/* Bookkeeping column */}
                     <div className="card services-card m-3 border-0 col col-6">
@@ -53,10 +53,11 @@ const servicesHero = () => {
                         </div>
                     </div>
 
-                <div className="font-60 bold text-center bg-primary text-light">One Time Projects</div>
-                    <div className="d-flex pt-5 container flex-row">
+                <div className="font-60 bold text-center bg-dark-primary text-light">One Time Projects</div>
+                    <div className="pt-5 container">
+                        <div className="row">
 
-                        <div className="card m-3 border-0 col col-6">
+                        <div className="card m-3 border-0 col-6">
                             <div className="card-body">
                             <img src={file} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
                             <h5 className="card-title bold font-28">Business Plan Preparation</h5>
@@ -66,7 +67,7 @@ const servicesHero = () => {
                         </div>
                     </div>
 
-                    <div className="card m-3 border-0 col col-6">
+                    <div className="card m-3 border-0 col">
                         
                         <div className="card-body">
                         <img src={scale} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
@@ -76,7 +77,7 @@ const servicesHero = () => {
                     </div>
 
 
-                        <div className="card m-3 border-0 col col-6">
+                        <div className="card m-3 border-0 col-6">
                             <div className="card-body">
                             <img src={hospital} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
                             <h5 className="card-title bold font-28">Business Health Check</h5>
@@ -84,7 +85,7 @@ const servicesHero = () => {
                             </div>
                         </div>
                         </div>
-
+                        </div>
 
 
                     </div>

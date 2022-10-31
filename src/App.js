@@ -11,7 +11,6 @@ import BlankSpace from './components/BlankSpace';
 import TestView from './pages/TestView';
 import AboutView from './pages/AboutView';
 import Fade from 'react-reveal/Fade';
-import StyleSheet from './components/Stylesheet';
 
 
 
@@ -28,12 +27,11 @@ function App() {
         <Route exact path="/services" element={<ServicesView />}/>
         <Route path="/contact" element={<ContactView />}/>
         <Route path="/about" element={<AboutView />} />
-        <Route path="/test" element={<TestView />}/>
+        {/* <Route path="/test" element={<TestView />}/> */}
       </Routes>
       {/* </Fade> */}
       <ContactForm/>
       <Footer/>
-      <StyleSheet/>
       
       
     </div>

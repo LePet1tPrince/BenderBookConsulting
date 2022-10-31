@@ -28,16 +28,16 @@ const WhyUs = ({ data }) => {
                     <div class="card text-white border-0 my-5">
                         <img src={shopkeeper} class="card-img rounded-5" alt="Shopkeeper" width="800" height="500"/>
                         <div class="card-img-overlay hover-appear rounded-5">
-                            <h5 class="card-title font-52 bold p-4">Where does the money go?</h5>
-                            <p class="card-text font-28 p-4">Did you know if you hire your child to work for your business, they don't need to pay Employment Insurance? Neither did our client, Stacy, until she hired us to manage her payroll. Imagine her surprise when we got the CRA to put an extra $1200 in her pocket.</p>
+                            <h5 class="card-title font-52 bold p-4">We work for your goals</h5>
+                            <p class="card-text font-28 p-4">Did you know if you hire your child to work for your business, they should not pay employment insurance? Neither did our client, Stacy, until she hired us to manage her payroll. Imagine her surprise when we got the CRA to put an extra $1200 in her pocket.</p>
                         </div>
                     </div>
 
                     <div class="card text-white border-0 my-5">
                         <img src={shopkeeper} class="card-img rounded-5" alt="Shopkeeper" width="800" height="500"/>
                         <div class="card-img-overlay hover-appear rounded-5">
-                            <h5 class="card-title font-52 bold p-4">We want your business to be leak-proof</h5>
-                            <p class="card-text font-28 p-4">Expenses that no longer bring value to the company (we call them 'money 'leaks') can be one of the largest dangers to business health. We have a dedicated professional looking out for leaks so we can put that money back in your pocket.</p>
+                            <h5 class="card-title font-52 bold p-4">We work for your goals</h5>
+                            <p class="card-text font-28 p-4">We are not a corporate accounting firm with a cookie-cutter approach. We start by getting to know your goals, and let that inform every piece of advice we offer.</p>
                         </div>
                     </div>
                 </div>
