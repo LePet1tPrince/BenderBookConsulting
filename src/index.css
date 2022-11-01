@@ -73,6 +73,10 @@ code {
   font-weight: bold;
 }
 
+.fullscreen {
+  height: 120vh;
+};
+
 .fade-in {
 	animation: fadeInAnimation ease 2s;
 	animation-iteration-count: 1;
@@ -209,3 +213,10 @@ code {
   background-color: #45677d;
 }
 
+.has-bg-img {
+  background-image: url("./images/restaurant.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

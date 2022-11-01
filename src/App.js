@@ -21,15 +21,14 @@ function App() {
     <div>
       <BlankSpace/>
       <Navbar/>
-      {/* <Fade bottom big> */}
+
       <Routes>
         <Route exact path="/" element={<HomeView />}/>
         <Route exact path="/services" element={<ServicesView />}/>
         <Route path="/contact" element={<ContactView />}/>
         <Route path="/about" element={<AboutView />} />
-        {/* <Route path="/test" element={<TestView />}/> */}
+        <Route path="/test" element={<TestView />}/>
       </Routes>
-      {/* </Fade> */}
       <ContactForm/>
       <Footer/>
       

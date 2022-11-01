@@ -1,56 +1,29 @@
 
-import shopkeeper from '../images/Shopkeeper.jpg'
+import banner from '../images/Sillouhette-3-people.jpg'
+import owners from '../images/restaurant.jpg'
+import '../App.css'
+import Fade from 'react-reveal/Fade';
+import BlankSpace from '../components/BlankSpace'
+import QBOcert from '../images/certifications/QBO-advanced-certified.png'
+import Xerocert from '../images/certifications/Xero-certified.png'
 
 
 const TestComponent = () => {
   
 
     return (
-        <div className="fullscreen">
-            <div class="container d-flex align-items-center justify-content-center flex-wrap">
-        <div class="box">
+        <div className="fullscreen has-bg-img">
+        {/* <img src={owners} class="bg-img " alt="Shopkeeper"/> */}
+        <div className="b-example-divider"></div>
+        <h5 class="font-52 bold p-4 col-8">We go beyond the bookkeeping</h5>
+                            <p class="font-28 p-4 col-8">We're not just your average bookkeeping firm. Our tailored approach to financial planning will help you grow in all aspects of life and business by catching insights others may have missed before it's too late!</p>
+                    
             
-            <div class="body">
-                <div class="imgContainer">
-                    <img src={shopkeeper} alt="" />
-                </div>
+             <BlankSpace/>
 
-                <div class="content d-flex flex-column align-items-center justify-content-center">
-                    <div>
-                        <h3 class="text-white fs-5">Post Title</h3>
-                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="body">
-                <div class="imgContainer">
-                    <img src="https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
-                </div>
-                <div class="content d-flex flex-column align-items-center justify-content-center">
-                    <div>
-                        <h3 class="text-white fs-5">Post Title</h3>
-                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="body">
-                <div class="imgContainer">
-                    <img src="https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" />
-                </div>
-                <div class="content d-flex flex-column align-items-center justify-content-center">
-                    <div>
-                        <h3 class="text-white fs-5">Post Title</h3>
-                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        </div>
+
+        
+      </div>
     )
 }
 

@@ -1,4 +1,5 @@
 import banner from '../../images/Sillouhette-3-people.jpg'
+import owners from '../../images/restaurant.jpg'
 import '../../App.css'
 import Fade from 'react-reveal/Fade';
 import BlankSpace from '../../components/BlankSpace'
@@ -10,13 +11,13 @@ import Xerocert from '../../images/certifications/Xero-certified.png'
 
 const Hero = () => {
     return (
-        <div className="fullscreen fade-in">
+        <div className="fullscreen">
         <div className="b-example-divider"></div>
-        {/* <Fade duration={2000}> */}
+        <Fade duration={2000}>
             <div className="container col-xxl-8 px-4 py-5">
             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div className="col-10 col-sm-8 col-lg-6">
-                <img src={banner} className="d-block mx-lg-auto img-fluid rounded-5" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+                <img src={owners} className="d-block mx-lg-auto img-fluid rounded-5" alt="Bootstrap Themes" width="800" height="600" loading="lazy"/>
                 </div>
                 <div className="col-lg-6">
                 <h1 className="lh-1 mb-3 font-56 bold">Your No-Nonsense Bookkeeping Experts</h1>
@@ -41,22 +42,9 @@ const Hero = () => {
                 </div>
             </div>
             </div>
-            {/* <BlankSpace/>
-            <div className="container bg-primary bg-gradient h-10 my-5 font-36 text-white text-center rounded-5">
-                <div className="row">
-                    <div className="col col-4">
-                        Make Informed Decisions
-                    </div>
-                    <div className="col col-4">
-                        Run your business with confidence
-                    </div>
-                    <div className="col col-4">
-                        Enjoy more time
-                    </div>
-                </div>
+             <BlankSpace/>
 
-            </div> */}
-            {/* </Fade> */}
+            </Fade>
         
       </div>
     )
