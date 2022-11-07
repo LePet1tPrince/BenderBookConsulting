@@ -4,15 +4,15 @@ import logo from "../images/favicon.png"
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg py-3 bg-light bg-gradient shadow-lg fixed-top max-height-100">
+        <nav className="navbar navbar-expand-lg py-3 shadow-lg navbar-light bg-light fixed-top">
         <div className="container-fluid">
           <Link to="/">
-            <img src={logo} className="d-block mx-5 img-fluid " alt="Bootstrap Themes" width="50" height="50" loading="lazy"/>
+            <img src={logo} className="d-block mx-5 img-fluid" alt="Bootstrap Themes" width="50" height="50" loading="lazy"/>
           </Link>
           <Link className="navbar-brand" to="/">
             <h3><strong>Bender Book Consulting</strong></h3>
             </Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -31,7 +31,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item dropdown">  
-                <Link className="nav-link fs-2 mx-5 px-4 rounded-pill btn btn-primary bold text-light" to="/contact" role="button" aria-expanded="false">
+                <Link className="nav-link fs-2 mx-5 px-4 rounded-5 btn btn-primary bold text-light" to="/contact" role="button" aria-expanded="false">
                   Hire Us
                 </Link>
                 <ul className="dropdown-menu">

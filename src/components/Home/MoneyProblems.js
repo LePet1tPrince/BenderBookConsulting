@@ -17,13 +17,13 @@ const MoneyProblems = () => {
             <div className="container h-50">
                 <div className="row h-100 d-flex align-items-center ">
 
-                    <div className="col-4 d-flex align-items-center justify-content-center h-100 justify-items-center">
+                    <div className="col-12 col-lg-4 col-md-8 col-sm-12 d-flex align-items-center justify-content-center h-100 justify-items-center img-response">
                         <img src={image} className="mx-lg-auto img-fluid rounded-5" alt="Sad Business Owner" width="800" height="500" loading="lazy"/>
 
                         
                     </div>
                     {/* <div className="col-2"></div> */}
-                    <div className="col-4">
+                    <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                         {/* first card */}
                         <div className="card mb-3 py-5 rounded-5 border-0 text-center">
                                 <div className="mb-3">
@@ -40,7 +40,7 @@ const MoneyProblems = () => {
                         </div>
 
                     </div>
-                    <div className="col-4">
+                    <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                         {/* Third Card */}
                         <div className="card mb-3 py-5 rounded-5 border-0 text-center">
                             <div className="mb-3">

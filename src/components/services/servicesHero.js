@@ -6,24 +6,31 @@ import scale from '../../images/icons/scale-balanced-solid.svg'
 import cashRegister from '../../images/icons/cash-register-solid.svg'
 import file from '../../images/icons/file-lines-solid.svg'
 import hospital from '../../images/icons/hospital-regular.svg'
+import Fade from 'react-reveal/Fade';
+
 
 
 const servicesHero = () => {
     return (
       <div>
+        <Fade bottom>
         <div className="text-center font-72 bold py-5">What can we take off your plate?</div>
                 <div className="font-60 bold text-center bg-info text-light">Ongoing</div>
-             <div className="d-flex pt-5 container flex-row">
+                
+             <div className="container ">
+                <div className="g-3 row">
                         {/* Bookkeeping column */}
-                    <div className="card services-card m-3 border-0 col col-6">
+                        <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div className="card services-card m-3 border-0">
                         <div className="card-body">
                         <img src={receipt} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
                         <h5 className="card-title bold font-28">Bookkeeping</h5>
                         <p className="card-text font-20">We want your business to run well. An informed business owner is a smart business owner. Are you trying to hire? Do you want to grow your business? Let's get your bookeeping up to date and accurate!</p>
                         </div>
                     </div>
-
-                    <div className="card m-3 border-0 col col-6">
+                    </div>
+                    <div className="col-12 col-md-6 col-sm-12 col-xs-12">
+                    <div className="card g-3 border-0">
                             <div className="card-body">
                             <img src={cashRegister} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
                             <h5 className="card-title bold font-28">Payroll</h5>
@@ -32,61 +39,82 @@ const servicesHero = () => {
                             </div>
                         </div>
                     </div>
+                    </div>
+                </div>
                 </div>
 
                 <div className="font-60 bold text-center bg-primary text-light">Taxes</div>
-                    <div className="d-flex pt-5 container flex-row">
-                        <div className="card m-3 border-0 col col-6">
-                            <div className="card-body">
-                            <img src={magnify} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
-                            <h5 className="card-title bold font-28">Personal & Sole Proprietor Tax Returns</h5>
-                            <p className="card-text font-20">Looking for someone to take the load of personal taxes off your shoulder? Look no further! We file personal and small business taxes.</p>
-                            </div>
-                        </div>
 
-                        <div className="card m-3 border-0 col col-6">
-                            <div className="card-body">
-                            <img src={bank} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
-                            <h5 className="card-title bold font-28">Corporate Taxes</h5>
-                            <p className="card-text font-20">Do you dread talking to your CPA? Do you wish you didn't need to handle their questions? Let us take manage your taxes for you. We have our tax preparers we love working with, or we are happy to work with yours. Accountants love us.</p>
-                            </div>
+                <div className="container ">
+                <div className="g-3 row">
+                        {/* Bookkeeping column */}
+                        <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div className="card services-card m-3 border-0">
+                        <div className="card-body">
+                        <img src={magnify} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
+                        <h5 className="card-title bold font-28">Personal & Sole Proprietor Tax Returns</h5>
+                        <p className="card-text font-20">Looking for someone to take the load of personal taxes off your shoulder? Look no further! We file personal and small business taxes.</p>
                         </div>
                     </div>
-
-                <div className="font-60 bold text-center bg-dark-primary text-light">One Time Projects</div>
-                    <div className="pt-5 container">
-                        <div className="row">
-
-                        <div className="card m-3 border-0 col-6">
+                    </div>
+                    <div className="col-12 col-md-6 col-sm-12 col-xs-12">
+                    <div className="card g-3 border-0">
                             <div className="card-body">
                             <img src={file} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
-                            <h5 className="card-title bold font-28">Business Plan Preparation</h5>
-                            <p className="card-text font-20">Applying for a bank loan? We know what the bank looks for in an application. Let us work to prepare your financial statements and application so you can get the credit your business deserves.</p>
+                            <h5 className="card-title bold font-28">Corporate Taxes</h5>
+                            <p className="card-text font-20">Do you dread talking to your CPA? Do you wish you didn't need to handle their questions? Let us take manage your taxes for you. We have our tax preparers we love working with, or we are happy to work with yours. Accountants love us.</p>
                             <div className="footer">
                             </div>
                         </div>
                     </div>
+                    </div>
+                </div>
+                </div>
 
-                    <div className="card m-3 border-0 col">
-                        
+
+                    
+
+                <div className="font-60 bold text-center bg-dark-primary text-light">One Time Projects</div>
+                <div className="container ">
+                <div className="g-3 row">
+                        {/* Bookkeeping column */}
+                        <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div className="card services-card m-3 border-0">
                         <div className="card-body">
-                        <img src={scale} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
-                        <h5 className="card-title bold font-28">Accounting Systems Setup</h5>
-                        <p className="card-text font-20">We get it, you want to roll up your sleves and get into the books yourself! In that case, let us set up your bookkeeping system for you. We throw in some coaching as well to make sure you have all the best tips and tricks we have learned in running your own bookkeeping system.</p>
+                        <img src={file} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
+                        <h5 className="card-title bold font-28">Business Plan Preparation</h5>
+                        <p className="card-text font-20">Applying for a bank loan? We know what the bank looks for in an application. Let us work to prepare your financial statements and application so you can get the credit your business deserves.</p>
                         </div>
                     </div>
+                    </div>
+                    <div className="col-12 col-md-6 col-sm-12 col-xs-12">
+                    <div className="card g-3 border-0">
+                            <div className="card-body">
+                            <img src={scale} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
+                            <h5 className="card-title bold font-28">Accounting Systems Setup</h5>
+                            <p className="card-text font-20">We get it, you want to roll up your sleves and get into the books yourself! In that case, let us set up your bookkeeping system for you. We throw in some coaching as well to make sure you have all the best tips and tricks we have learned in running your own bookkeeping system.</p>
+                            <div className="footer">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
 
-
-                        <div className="card m-3 border-0 col-6">
+                    <div className="col-12 col-md-6 col-sm-12 col-xs-12">
+                    <div className="card g-3 border-0">
                             <div className="card-body">
                             <img src={hospital} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
                             <h5 className="card-title bold font-28">Business Health Check</h5>
-                            <p className="card-text font-20">You don't have to be sick to go see the doctor. You are crushing your bookkeeping all on your own but want a professional once over. We will deliver you with a report on</p>
+                            <p className="card-text font-20">You don't have to be sick to go see the doctor. You are crushing your bookkeeping all on your own but want a professional once over. We will deliver you with a report on.</p>
+                            <div className="footer">
                             </div>
                         </div>
-                        </div>
-                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
 
+
+                        </Fade>
 
                     </div>
             

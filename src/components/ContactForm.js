@@ -1,4 +1,3 @@
-
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Desk from '../images/Desk.jpg'
@@ -12,14 +11,12 @@ const ContactForm = () => {
       emailjs.sendForm('service_6xiqkyp', 'template_rep3qpp', form.current, 'ChUYKVVUT3MpRwQ5j')
         .then((result) => {
             console.log(result.text);
+            alert("Thanks for your message. We will reach out to you soon.")
         }, (error) => {
             console.log(error.text);
         });
       e.target.reset()
     };
-
-    
-   
 
     return (
         <div id="contact" className="fullscreen bg-primary bg-opacity-75 deskPicture" style={{ backgroundImage: `url(${Desk})`}}>
@@ -50,10 +47,13 @@ const ContactForm = () => {
               <input type="submit" className="btn btn-primary py-3 px-5 rounded-pill text-light fs-3" value="Send" />
               </form>
           </div>
+        
         </div>
+        
       </div>
+      
             </div>
-
+            
             
         </div>
     )

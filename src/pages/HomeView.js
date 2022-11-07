@@ -12,7 +12,7 @@ const HomeView = () => {
       <Hero/>
       <MoneyProblems/>
       <WhyUs/>
-      <Reference/>
+      {/* <Reference/> */}
       <Software/>
       </div>
       
