@@ -74,7 +74,7 @@ const servicesHero = () => {
 
                     
 
-                <div className="font-60 bold text-center bg-dark-primary text-light">One Time Projects</div>
+                <div className="font-60 bold text-center bg-dark-primary text-light">Custom Projects</div>
                 <div className="container ">
                 <div className="g-3 row">
                         {/* Bookkeeping column */}
@@ -104,7 +104,7 @@ const servicesHero = () => {
                             <div className="card-body">
                             <img src={hospital} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
                             <h5 className="card-title bold font-28">Business Health Check</h5>
-                            <p className="card-text font-20">You don't have to be sick to go see the doctor. You are crushing your bookkeeping all on your own but want a professional once over. We will deliver you with a report on.</p>
+                            <p className="card-text font-20">Don't wait until you're sick to see a doctor. You are running your bookkeeping on your own but want a professional once over. We will sit down with you and give you recommendations our best tips, tricks and best-practices so save yourself time and stress. </p>
                             <div className="footer">
                             </div>
                         </div>
