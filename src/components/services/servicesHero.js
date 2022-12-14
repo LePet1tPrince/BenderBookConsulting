@@ -7,10 +7,12 @@ import cashRegister from '../../images/icons/cash-register-solid.svg'
 import file from '../../images/icons/file-lines-solid.svg'
 import hospital from '../../images/icons/hospital-regular.svg'
 import Fade from 'react-reveal/Fade';
+import Service from './Service';
 
 
 
 const servicesHero = () => {
+    
     return (
       <div>
         <Fade bottom>
@@ -18,110 +20,111 @@ const servicesHero = () => {
                 <div className="font-60 bold text-center bg-info text-light">Ongoing</div>
                 
              <div className="container ">
-                <div className="g-3 row">
+                <div className="row row-cols-3 justify-content-md-center">
                         {/* Bookkeeping column */}
-                        <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div className="card services-card m-3 border-0">
-                        <div className="card-body">
-                        <img src={receipt} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
-                        <h5 className="card-title bold font-28">Bookkeeping</h5>
-                        <p className="card-text font-20">We want your business to run well. An informed business owner is a smart business owner. Are you trying to hire? Do you want to grow your business? Let's get your bookeeping up to date and accurate!</p>
-                        </div>
-                    </div>
-                    </div>
-                    <div className="col-12 col-md-6 col-sm-12 col-xs-12">
-                    <div className="card g-3 border-0">
-                            <div className="card-body">
-                            <img src={cashRegister} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
-                            <h5 className="card-title bold font-28">Payroll</h5>
-                            <p className="card-text font-20">Paying your employees on-time and correctly is vital for your business. Add in benefits, vacation, health insurance, and reimbursements, the complexity and headaches add up. Let us take one more deadline off your list.</p>
-                            <div className="footer">
-                            </div>
-                        </div>
-                    </div>
-                    </div>
+                            {ongoingServices.map(service => {
+                                return <Service key={service.id} {...service} />
+                            })}
+                            
                 </div>
                 </div>
 
                 <div className="font-60 bold text-center bg-primary text-light">Taxes</div>
-
                 <div className="container ">
-                <div className="g-3 row">
-                        {/* Bookkeeping column */}
-                        <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div className="card services-card m-3 border-0">
-                        <div className="card-body">
-                        <img src={magnify} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
-                        <h5 className="card-title bold font-28">Personal & Sole Proprietor Tax Returns</h5>
-                        <p className="card-text font-20">Looking for someone to take the load of personal taxes off your shoulder? Look no further! We file personal and small business taxes.</p>
-                        </div>
-                    </div>
-                    </div>
-                    <div className="col-12 col-md-6 col-sm-12 col-xs-12">
-                    <div className="card g-3 border-0">
-                            <div className="card-body">
-                            <img src={file} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
-                            <h5 className="card-title bold font-28">Corporate Taxes</h5>
-                            <p className="card-text font-20">Do you dread talking to your CPA? Do you wish you didn't need to handle their questions? Let us take manage your taxes for you. We have our tax preparers we love working with, or we are happy to work with yours. Accountants love us.</p>
-                            <div className="footer">
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
+                <div className="row row-cols-3 justify-content-md-center">
+                        {/* Taxes column */}
+                        {taxServices.map(service => {
+                                return <Service key={service.id} {...service}  />
+                            })}
 
-
+                  
                     
-
+                </div>
+                </div>
                 <div className="font-60 bold text-center bg-dark-primary text-light">Custom Projects</div>
                 <div className="container ">
-                <div className="g-3 row">
+                <div className="row row-cols-3 justify-content-md-center">
                         {/* Bookkeeping column */}
-                        <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div className="card services-card m-3 border-0">
-                        <div className="card-body">
-                        <img src={file} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
-                        <h5 className="card-title bold font-28">Business Plan Preparation</h5>
-                        <p className="card-text font-20">Applying for a bank loan? We know what the bank looks for in an application. Let us work to prepare your financial statements and application so you can get the credit your business deserves.</p>
-                        </div>
-                    </div>
-                    </div>
-                    <div className="col-12 col-md-6 col-sm-12 col-xs-12">
-                    <div className="card g-3 border-0">
-                            <div className="card-body">
-                            <img src={scale} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
-                            <h5 className="card-title bold font-28">Accounting Systems Setup</h5>
-                            <p className="card-text font-20">We get it, you want to roll up your sleves and get into the books yourself! In that case, let us set up your bookkeeping system for you. We throw in some coaching as well to make sure you have all the best tips and tricks we have learned in running your own bookkeeping system.</p>
-                            <div className="footer">
-                            </div>
-                        </div>
-                    </div>
-                    </div>
 
-                    <div className="col-12 col-md-6 col-sm-12 col-xs-12">
-                    <div className="card g-3 border-0">
-                            <div className="card-body">
-                            <img src={hospital} className="mx-lg-auto img-fluid mx-auto icon-service d-flex justify-contents-center border-0" alt="Hand with dollar sign" width="50" height="50" loading="lazy"/>
-                            <h5 className="card-title bold font-28">Business Health Check</h5>
-                            <p className="card-text font-20">Don't wait until you're sick to see a doctor. You are running your bookkeeping on your own but want a professional once over. We will sit down with you and give you recommendations our best tips, tricks and best-practices so save yourself time and stress. </p>
-                            <div className="footer">
-                            </div>
-                        </div>
+                        {customServices.map(service => {
+                                return <Service key={service.id} {...service} />
+                            })}
+
+                    
                     </div>
                     </div>
-                </div>
-                </div>
 
 
                         </Fade>
 
                     </div>
-            
-
-                        
+                       
     )
 }
+
+const Services = [
+    {
+        id: 1,
+        img: receipt,
+        title: "Bookkeeping",
+        desc: "We want your business to run well. An informed business owner is a smart business owner. Are you trying to hire? Do you want to grow your business? Let's get your bookeeping up to date and accurate!",
+        type: "Ongoing"
+    },
+    {
+        id: 2,
+        img: cashRegister,
+        title: "Payroll",
+        desc: "Paying your employees on-time and correctly is vital for your business. Add in benefits, vacation, health insurance, and reimbursements, the complexity and headaches add up. Let us take one more deadline off your list.",
+        type: "Ongoing"
+    },
+    {
+        id: 3,
+        img: magnify,
+        title: "Personal & Sole Proprietor Tax Returns",
+        desc: "Looking for someone to take the load of personal taxes off your shoulder? Look no further! We file personal and small business taxes.",
+        type: "Taxes"
+    }
+    ,
+    {
+        id: 4,
+        img: file,
+        title: "Corporate Taxes",
+        desc: "Do you dread talking to your CPA? Do you wish you didn't need to handle their questions? Let us take manage your taxes for you. We have our tax preparers we love working with, or we are happy to work with yours. Accountants love us.",
+        type: "Taxes"
+    }
+    ,
+    {
+        id: 5,
+        img: bank,
+        title: "Business Plan Preparation",
+        desc: "Applying for a bank loan? We know what the bank looks for in an application. Let us work to prepare your financial statements and application so you can get the credit your business deserves.",
+        type: "Custom"
+    },
+    {
+        id: 6,
+        img: scale,
+        title: "Accounting Systems Setup",
+        desc: "We get it, you want to roll up your sleves and get into the books yourself! In that case, let us set up your bookkeeping system for you. We throw in some coaching as well to make sure you have all the best tips and tricks we have learned in running your own bookkeeping system.",
+        type: "Custom"
+    },
+    {
+        id: 7,
+        img: hospital,
+        title: "Business Health Check",
+        desc: "Don't wait until you're sick to see a doctor. You are running your bookkeeping on your own but want a professional once over. We will sit down with you and give you recommendations our best tips, tricks and best-practices so save yourself time and stress.",
+        type: "Custom"
+    }
+
+]
+var ongoingServices = Services.filter(function (service) {
+    return service.type === "Ongoing"
+  })
+  var taxServices = Services.filter(function (service) {
+    return service.type === "Taxes"
+  })
+  var customServices = Services.filter(function (service) {
+    return service.type === "Custom"
+  })
 
 
 
