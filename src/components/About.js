@@ -1,10 +1,10 @@
 import Headshot from '../images/Headshot.jpg'
 import Fade from 'react-reveal/Fade';
-import { useState, useEffect } from 'react';
 
 
 const About = () => {
-    const [modal, setModal] = useState(false)
+
+
     return (
         <div className="fullscreen d-flex justify-content-center">
             <Fade bottom>
