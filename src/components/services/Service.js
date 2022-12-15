@@ -4,8 +4,7 @@ import React from 'react'
 export default function Service(props) {
     const {img,
     title,
-    desc,
-    type
+    desc
      } = props
   return (
     <div className="card services-card m-3 border-0 col-12 col-lg-5 col-md-12 col-sm-12 col-xs-12">
